@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context="fiap.com.br.amapp.BasketActivity">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/basketRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <android.support.design.widget.BottomNavigationView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bottomNavigationFinishCart"
+                    android:layout_gravity="bottom"
+                    app:menu="@menu/bottom_nav_finish_cart_menu"
+                    android:theme="@style/BottomCartNavTheme"
+                    android:background="@color/colorSuccess"
+                    app:itemIconTint="@color/auxColor"
+                    app:itemTextColor="@color/auxColor">
+
+                </android.support.design.widget.BottomNavigationView>
+
+        </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

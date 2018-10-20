@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fiap.com.br.amapp">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name_eatup"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/LoginTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/LoginTheme"/>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register"/>
+        <activity
+            android:name=".ForgetPasswordActivity"
+            android:label="@string/title_activity_forget_password"/>
+        <activity
+            android:name=".RatingActivity"
+            android:label="@string/title_activity_rating"/>
+        <activity
+            android:name=".StatusPaymentActivity"
+            android:label="@string/title_activity_status_payment"
+            android:theme="@style/LoginTheme"/>
+        <activity
+            android:name=".PaymentActivity"
+            android:label="@string/title_activity_payment"/>
+        <activity
+            android:name=".BasketActivity"
+            android:label="@string/title_activity_basket"/>
+        <activity
+            android:name=".EventsActivity"
+            android:label="@string/title_activity_events"/>
+        <activity
+            android:name=".EstablishmentActivity"
+            android:label="@string/title_activity_establishment"/>
+        <activity
+            android:name=".DishesActivity"
+            android:label="@string/title_activity_dishes"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">AmApp</string>
+    <string name="app_name_eatup">EAT UP!</string>
+
+    <!-- Icons -->
+    <string name="ion_android_remove">&#xf2f4;</string>
+    <string name="ion_android_add">&#xf2c7;</string>
+    <string name="ion_android_cart">&#xf370;</string>
+
+    <!-- Activities Titles -->
+    <string name="title_activity_login">Entrar</string>
+    <string name="title_activity_register">Cadastro</string>
+    <string name="title_activity_basket">Carrinho</string>
+    <string name="title_activity_dishes">Cardápio</string>
+    <string name="title_activity_establishment">Restaurantes</string>
+    <string name="title_activity_events">Eventos</string>
+    <string name="title_activity_forget_password">Esqueci Minha Senha</string>
+    <string name="title_activity_payment">Pagamento</string>
+    <string name="title_activity_status_payment">Status do Pagamento</string>
+    <string name="title_activity_rating">Avaliação</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Este email é inválido</string>
+    <string name="error_invalid_password">Senha muito curta</string>
+    <string name="error_incorrect_password">Senha incorreta</string>
+    <string name="error_field_required">Campo obrigatório</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <!-- Strings related to register -->
+    <string name="prompt_fullname">Nome Completo</string>
+    <string name="prompt_cellphone">Número de Celular</string>
+    <string name="prompt_password_confirm">Confirmar Senha </string>
+
+    <string name="action_register">Salvar</string>
+
+    <!-- Strings related to forgetPass -->
+    <string name="msg_forget_pass">Informe seu e-mail para recuperar sua senha</string>
+    <string name="action_send_forget_pass">Enviar</string>
+
+    <!-- Strings related to rating -->
+    <string name="msg_question_1">O que você achou do atendimento?</string>
+    <string name="msg_question_2">O que você achou da comida?</string>
+    <string name="msg_question_3">Qual foi sua satisfação?</string>
+    <string name="action_send_report">Enviar avaliação</string>
+
+    <!-- Strings related to payment -->
+    <string name="txt_total">Total:</string>
+    <string name="add_more_itens">Adicionar mais itens</string>
+    <string name="msg_payment">Pagamento concluído com sucesso</string>
+    <string name="msg_payment_code">Seu código é:</string>
+    <string name="prompt_document">Documento</string>
+    <string name="prompt_card_expires">Vencimento do cartão</string>
+    <string name="prompt_cardnumber">Número do Cartão</string>
+    <string name="prompt_cvv">CVV</string>
+    <string name="action_pay">Pagar</string>
+    <string name="prompt_cpf">CPF</string>
+    <string name="propt_cardBrand">Marca do Cartão</string>
+    <string name="prompt_forgot_password">Esqueceu a Senha?</string>
+    <string name="prompt_new_account">Novo por Aqui?</string>
+    <string name="prompt_comment">Alguma sugestão?</string>
+    <string name="msg_question_4">E sobre a velocidade de preparo?</string>
+    <string name="prompt_no_thanks">Não, Obrigado!</string>
+    <string name="prompt_rating">Avaliar</string>
+    <string name="prompt_done_title">Seu pedido está pronto!</string>
+    <string name="prompt_done_message">Vá até o caixa mais próximo e apresente o seguinte código:</string>
+
+</resources>
